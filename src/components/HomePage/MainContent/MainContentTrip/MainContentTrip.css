@@ -1,0 +1,16 @@
+.homepage-main-content-trip-image{
+    display: flex;
+    justify-content: space-around;
+}
+
+.homepage-main-content-trip-image>div:nth-child(1){
+    display: flex;
+}
+
+img{
+    height: 20%;
+}
+
+h3{
+    line-height: 2px;
+}
