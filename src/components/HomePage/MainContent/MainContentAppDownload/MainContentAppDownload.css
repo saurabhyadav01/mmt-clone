@@ -1,0 +1,20 @@
+.homepage-main-content-app-download-details{
+    display: flex;   
+}
+
+.homepage-main-content-app-download-details-qrCode>img{
+    width: 50%;
+}
+
+.homepage-main-content-app-download-details>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.home-page-maincontent-app{
+    width: 80%;
+    margin: auto;
+    border: 1px solid teal;
+
+}
