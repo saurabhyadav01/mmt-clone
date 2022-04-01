@@ -9,6 +9,7 @@ import { MainContent } from './components/HomePage/MainContent/MainContent';
 function App() {
   return (
     <div>
+      
       <HomeNavbar/>
       <MainContent/>
       <SecondFooter/>
