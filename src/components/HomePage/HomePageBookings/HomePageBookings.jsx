@@ -1,5 +1,7 @@
 import "./HomePageBookings.css"
 export const HomePageBookings = ()=>{
+    const today = new Date();
+    let date = today.getDate()+'-' + new Date().toLocaleString("en-US", { month: "long" }) + '-'+today.getFullYear();
     return <div>
         <div className="homepage-bookings-component">
         <div className="homepage-bookings-icons-div">
@@ -67,18 +69,30 @@ export const HomePageBookings = ()=>{
             <div className="homepage-bookings-search">
                 <div className="homepage-booking-search-source">
                     <h3>FROM</h3>
+                    <h2>Mumbai</h2>
+                    <h3>BOM, Chhatrapati Shivaji International</h3>
+                    <h3>Airport</h3>
                 </div>
                 <div className="homepage-booking-search-destination">
                     <h3>TO</h3>
+                    <h2>New Delhi</h2>
+                    <h3>DEL, Indira Gandhi International Airport</h3>
                 </div>
                 <div className="homepage-booking-search-departure">
                     <h3>DEPARTURE</h3>
-                </div>
+                    <h4>{date}</h4>
+                </div>  
                 <div className="homepage-booking-search-return">
                     <h3>RETURN</h3>
+                    <h4>
+                        Tap to add a return date for bigger discounts
+                    </h4>
                 </div>
                 <div className="homepage-booking-search-travellers-class">
                     <h3>TRAVELLERS & CLASS</h3>
+                    <h2>1 Traveller</h2>
+                    <h4>Economy/Premium Economy</h4>
+                    <h4>Group Booking Now Available !</h4>
                 </div>
             </div>
             <div className="homepage-bookings-fair-type">

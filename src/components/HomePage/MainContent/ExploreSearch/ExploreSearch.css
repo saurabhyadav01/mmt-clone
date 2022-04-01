@@ -1,0 +1,46 @@
+.explore-search {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 60%;
+    margin: -40px auto 0;
+    background-color: white;
+  }
+
+  .explore-search>div>div>divimg{
+      width: 10%;
+  }
+  
+  .explore-s-1 {
+    /* background: #fff; */
+    display: flex;
+    padding: 0 15px;
+  }
+  
+  .explore-s-2 {
+    /* background: #fff; */
+    display: flex;
+    padding: 0 15px;
+  }
+  
+  .explore-s-3 {
+    /* background: #fff; */
+    display: flex;
+    padding: 0 15px;
+  }
+  .explore-s-4 {
+    /* background: #fff; */
+    display: flex;
+    padding: 0 15px;
+  }
+  .explore-s-5 {
+    /* background: #fff; */
+    display: flex;
+    padding: 0 15px;
+  }
+  
+  .spacefor {
+    margin: "0 10px 0 10px";
+  }
+
