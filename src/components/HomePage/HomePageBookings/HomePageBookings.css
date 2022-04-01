@@ -1,0 +1,82 @@
+.homepage-bookings-icons-div{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.homepage-bookings-icon-holder{
+    margin: 20px auto;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60%;
+    background-color: white;
+}
+
+.homepage-bookings-icon{
+    margin: 0 10px;
+}
+
+.homepage-bookings-type{
+    display: flex;
+    justify-content: space-between;
+}
+
+.homepage-bookings-type-radio-button{
+    display: flex;
+}
+
+.homepage-bookings-type-radio-button>div{
+    display: flex;
+    margin: 0 10px;
+}
+
+.homepage-bookings-search{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.homepage-bookings-search>div{
+    border: 1px solid black;
+    text-align: left;
+}
+
+.homepage-bookings-flights{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.homepage-booking-search-source{
+    width: 30%;
+}
+
+.homepage-booking-search-destination{
+    width: 30%;
+}
+
+.homepage-booking-search-dpearture{
+    width: 10%;
+}
+
+.homepage-booking-search-return{
+    width: 10%;
+}
+.homepage-booking-search-travellers-class{
+    width: 20%;
+}
+
+.homepage-bookings-fair-type{
+    display: flex;
+    width: 50%;
+}
+
+.homepage-bookings-component{
+    background-color: #0d2845;
+}
+
+.homepage-bookings-search-button{
+    color: white;
+}

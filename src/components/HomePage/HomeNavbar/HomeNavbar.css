@@ -1,0 +1,28 @@
+.home-upper-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+    background-color: #061424;
+    color: white;
+}
+
+.home-upper-navbar-myBizz{
+    display: flex;
+}
+
+.home-upper-navbar-myTrip{
+    display: flex;
+}
+
+.home-upper-navbar-menu{
+    display: flex;
+}
+
+.home-upper-navbar-menu>button{
+    margin-right: 10px;
+}
+
+/* 
+.home-upper-navbar-logo{
+    width: 30%;
+} */
