@@ -1,0 +1,15 @@
+.Famous-Cities
+{
+    display: grid;
+    border: 1px solid wheat;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+
+.Famous-Cities>div>div>img{
+   
+    border-radius: 50%;
+  
+}
