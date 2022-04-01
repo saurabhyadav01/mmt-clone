@@ -2,7 +2,7 @@ import "./MainContentAppDownload.css";
 
 export const MainContentAppDownload = ()=>{
     return <div>
-        <div>
+        <div className="home-page-maincontent-offer" >
             <img src="https://mmt.servedbyadbutler.com/getad.img/;libID=3406718" alt="" />
         </div>
           <div className="home-page-maincontent-app">

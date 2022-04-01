@@ -18,3 +18,10 @@
     border: 1px solid teal;
 
 }
+.home-page-maincontent-offer
+{
+    width: 90%;
+    margin: auto;
+}.home-page-maincontent-offer>img{
+width: 100%;
+}
