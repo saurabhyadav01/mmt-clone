@@ -47,6 +47,7 @@ export const HomePageBookings = ()=>{
             </div>     
         </div>
         <div className="homepage-bookings-flights">
+            <div></div>
             <div className="homepage-bookings-type">
                 <div className="homepage-bookings-type-radio-button">
                     <div>

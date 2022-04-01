@@ -2,6 +2,7 @@
     display: flex;
     width: 100%;
     margin: auto;
+    
 }
 
 .homepage-bookings-icon-holder{
@@ -9,7 +10,7 @@
     display: flex;
     border: 1px solid black;
     border-radius: 10px;
-    width: 60%;
+    width: 70%;
     background-color: white;
 }
 
@@ -42,11 +43,17 @@
 }
 
 .homepage-bookings-flights{
-    width: 80%;
+    width: 90%;
     margin: auto;
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: white;
+    margin-top: -60px;
+    padding: 0 1%;
+}
+
+.homepage-bookings-flights>div:nth-child(1){
+    height: 50px;
 }
 
 .homepage-booking-search-source{
@@ -73,10 +80,19 @@
     width: 50%;
 }
 
-.homepage-bookings-component{
-    background-color: #0d2845;
+.homepage-bookings-search-button{
+    color: white;
 }
 
 .homepage-bookings-search-button{
-    color: white;
+    text-align: center;
+}
+
+.homepage-bookings-search-button>button{
+    background-color: dodgerblue;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 3%;
+    margin-top: -50px;
 }

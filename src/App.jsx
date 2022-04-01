@@ -10,7 +10,6 @@ function App() {
   return (
     <div>
       <HomeNavbar/>
-      <HomePageBookings/>
       <MainContent/>
       <SecondFooter/>
       <Footer/>
