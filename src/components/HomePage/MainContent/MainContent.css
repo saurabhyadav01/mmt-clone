@@ -1,10 +1,16 @@
 .homepage-main-content{
-    background-color: whitesmoke;
-    width: 90%;
+   
+    width: 85%;
+   
     margin: auto;
 }
 
 .homepage-main-content-body{
-    background-color: #fff;
+    background-color: whitesmoke;
     width: 100%;
+    
+}
+.homepage-main-content-footer>div>p{
+font-size: 12px;
+line-height: 14px;
 }
