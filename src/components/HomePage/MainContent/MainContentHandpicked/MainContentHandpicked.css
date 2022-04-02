@@ -1,0 +1,19 @@
+
+.mainContentHandpicked-main
+{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+height: 350px;
+border-radius: 5px
+
+}
+.flex
+{
+    display: flex;
+}
+.flex>div>img
+{
+    height: 100%;
+    width: 80%;
+    border-radius: 2%;
+}
