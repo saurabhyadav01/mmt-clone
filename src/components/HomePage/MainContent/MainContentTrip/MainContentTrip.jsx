@@ -13,7 +13,7 @@ Travel Loan Get upto ₹1 lakh limit & pay back in flexible EMIs</h3>
             </div>
         </div>
         <div>
-            <h3>APPLY NOW → </h3>
+            <h3>APPLY NOW <span>→</span>  </h3>
         </div>
     </div>
 }

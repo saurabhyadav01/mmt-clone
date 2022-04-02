@@ -1,0 +1,12 @@
+.homepage-main-content-offers{
+    width: 90%;
+    background-color: white;
+}
+
+.homepage-main-content-offers-heading{
+    display: flex;
+}
+
+.homepage-main-content-all-offers{
+    display: flex;
+}
