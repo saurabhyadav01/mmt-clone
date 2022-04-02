@@ -1,16 +1,26 @@
+
+
 .homepage-second-footer{
-    display: flex;
     width: 100%;
-    background-color: whitesmoke;
-    text-align: left;
+    background-color: #eee;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .homepage-second-footer>div{
-    width: 30%;
-    margin: 1.5%;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
 }
 
-.homepage-second-footer>div>p{
-    color: grey;
-    font-size: 13px;
+.homepage-second-footer>div>div{
+    width: 30%;
+    margin: 0 2.5%;
+    
+}
+
+.homepage-second-footer>div>div>p{
+    font-size: 12px;
+    line-height: 20px;
 }
