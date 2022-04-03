@@ -1,0 +1,27 @@
+.homepage-footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 150px;
+}
+
+.homepage-footer>div{
+    width: 50%;
+}
+
+.homepage-footer>div:nth-child(2){
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 50px;
+    font-size: 13px;
+}
+
+.homepage-footer>div:nth-child(1){
+    padding: 2% 0 0 10%;
+    display: flex;
+}
+
+.homepage-footer>div:nth-child(1)>div{
+    margin: 5%;
+    font-size: 30px;
+}

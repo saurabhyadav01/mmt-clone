@@ -1,0 +1,81 @@
+
+.HomePage-offer-main
+{
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+   
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+}
+.HomePage-offer-main-navbar
+{
+    display: flex;
+}
+.HomePage-offer-main-navbar>li:nth-child(1)
+{
+font-size: 35px;
+margin-top: 15px;
+}
+.HomePage-offer-main-navbar>div>li
+{
+list-style-type: none;
+font-size: 20px;
+margin: 20px 20px 0 0;
+/* border: 1px solid red; */
+color: black;
+font-weight: 600;
+}
+.HomePage-offer-main-navbar>li:hover
+{
+color: aqua;
+border-bottom: 2px solid black;
+}
+.offer-box
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px;
+   
+}
+.offer-box>div
+{
+
+height: 200px;
+width: 95%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+background-color: white;
+margin: 5px;
+}
+.flex
+{
+    display: flex;
+}
+.offers
+{
+    display: flex;
+}
+.offers>div>img{
+    width: 100%;
+    height: 75%;
+    padding: 8px;
+    border-radius: 10px;
+}
+.offer-box-details
+{
+   margin-left: 20px;
+}
+
+.HomePage-offer-main-navbar{
+    display: flex;
+}
+
+.HomePage-offer-main-navbar>div:nth-child(2){
+    display: flex;
+    border-bottom: 1px solid black;
+    /* border: 1px solid teal; */
+    height: 50px;
+    margin-left: 20px;
+    /* text-align: left; */
+}

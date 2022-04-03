@@ -1,0 +1,90 @@
+.homepage-main-content-app-download-details{
+    display: flex; 
+}
+
+.homepage-main-content-app-download-details-qrCode>img{
+    width: 45%;
+    margin-left: 50px;
+}
+
+.homepage-main-content-app-download-details>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-page-maincontent-app{
+    width: 100%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;  
+    margin-top: 20px;
+}
+.home-page-maincontent-offer
+{
+    width: 90%;
+    margin: auto;
+}
+.home-page-maincontent-offer>img{
+width: 100%;
+margin-top: 20px;
+}
+
+.home-page-maincontent-app>div:nth-child(1){
+    margin-left: 3%;
+    padding-top: 15px;
+    line-height: 12px;
+}
+
+.home-page-maincontent-app>div:nth-child(2){
+    margin-left: 3%;
+}
+
+.homepage-main-content-app-download-details-svg{
+    background: url("https://imgak.mmtcdn.com/pwa_v3/pwa_mmt_ui_assets/app-sprite.webp") no-repeat;
+    display: inline-block;
+    background-size: 250px 250px;
+    font-size: 0px;
+    flex-shrink: 0;
+}
+
+.homepage-main-content-country-code-input{
+    border: 1px solid black;
+    width: 328.5px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.homepage-main-content-country-code-input>input{
+    border: none;
+    height: 25px;
+    margin-left: 5px;
+    outline: none;
+}
+
+.homepage-main-content-country-code-input>button{
+    height: 32px;
+    border-radius: 0;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    font-size: 16px;
+}
+
+.homepage-main-content-hr{
+    height: 150px;
+    margin-left: 400px;
+}
+
+.homepage-main-content-app-google>div>p{
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.homepage-main-content-app-download{
+    display: flex;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+
+.homepage-main-content-app-download>div>div>img{
+    width: 120px;
+}
