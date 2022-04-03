@@ -18,11 +18,19 @@
 .Famous-Cities>div>div>img{
    
     border-radius: 50%;
-  margin: 15px;
+  margin: 10px;
     height: 60%;
   
 }
 .Famous-Cities-flex
 {
     display: flex;
+}
+
+.Famous-Cities-flex>div>p{
+    font-size: 12px;
+}
+
+.Famous-Cities-flex>div:nth-child(2){
+    line-height: 5px;
 }

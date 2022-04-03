@@ -4,7 +4,10 @@ export const MainContentOffers= ()=>
     return (
         <div className="HomePage-offer-main">
             <div className="HomePage-offer-main-navbar">
-                <li>Offers</li>
+                <div>
+                    <h1>Offers</h1>
+                </div>
+                <div>
                 <li>ALL OFFERS</li>
                 <li>FLIGHT</li>
                 <li>HOTELS</li>
@@ -12,6 +15,7 @@ export const MainContentOffers= ()=>
                 <li>BUS</li>
                 <li>TRAIN</li>
                 <li>MORE</li>
+                </div>
             </div>
             <div className="offer-box">
             <div className="offers">
