@@ -1,29 +1,64 @@
 import "./MainContentOffers.css"
-
-export const MainContentOffers = ()=>{
-    return <div className="homepage-main-content-offers">
-        <div className="homepage-main-content-offers-heading">
-            <div>
-                <h1>Offers</h1>
+export const MainContentOffers= ()=>
+{
+    return (
+        <div className="HomePage-offer-main">
+            <div className="HomePage-offer-main-navbar">
+                <li>Offers</li>
+                <li>ALL OFFERS</li>
+                <li>FLIGHT</li>
+                <li>HOTELS</li>
+                <li>HOLIDAY</li>
+                <li>BUS</li>
+                <li>TRAIN</li>
+                <li>MORE</li>
             </div>
-            <div className="homepage-main-content-all-offers">
-                <div>ALL OFFERS</div>
-                <div>BANK OFFERS</div>
-                <div>HOTELS</div>
-                <div>FLIGHTS</div>
-                <div>HOLIDAYS</div>
-                <div>TRAINS</div>
-                <div>MORE</div>
+            <div className="offer-box">
+            <div className="offers">
+                <div><img src="https://promos.makemytrip.com/notification/xhdpi//Flash_Sale_Flights.jpg" alt="" />
+                <h3>T/C apply</h3></div>
+                <div  className="offer-box-details">
+                    <p>DOM FLIGHT</p>
+                    <h3>#BackToWork:Get 15%off</h3>
+<p>to Mumbai, Bangalore, Delhi &amp; Hyderabad.</p>
+                </div>
             </div>
-            <hr />
+                <div className="offers">    <div><img src="https://promos.makemytrip.com/notification/xhdpi//Flash_Sale_Flights.jpg" alt="" />
+                <h3>T/C apply</h3></div>
+                <div  className="offer-box-details">
+                    <p>DOM FLIGHT</p>
+                    <h3>#BackToWork:Get 15%off</h3>
+<p>to Mumbai, Bangalore, Delhi &amp; Hyderabad.</p>
+                </div></div>
+                <div className="offers">    <div><img src="https://promos.makemytrip.com/notification/xhdpi//Flash_Sale_Flights.jpg" alt="" />
+                <h3>T/C apply</h3></div>
+                <div  className="offer-box-details">
+                    <p>DOM FLIGHT</p>
+                    <h3>#BackToWork:Get 15%off</h3>
+<p>to Mumbai, Bangalore, Delhi &amp; Hyderabad.</p>
+                </div></div>
+                <div className="offers">    <div><img src="https://promos.makemytrip.com/notification/xhdpi//Flash_Sale_Flights.jpg" alt="" />
+                <h3>T/C apply</h3></div>
+                <div  className="offer-box-details">
+                    <p>DOM FLIGHT</p>
+                    <h3>#BackToWork:Get 15%off</h3>
+<p>to Mumbai, Bangalore, Delhi &amp; Hyderabad.</p>
+                </div></div>
+                <div className="offers">    <div><img src="https://promos.makemytrip.com/notification/xhdpi//Flash_Sale_Flights.jpg" alt="" />
+                <h3>T/C apply</h3></div>
+                <div  className="offer-box-details">
+                    <p>DOM FLIGHT</p>
+                    <h3>#BackToWork:Get 15%off</h3>
+<p>to Mumbai, Bangalore, Delhi &amp; Hyderabad.</p>
+                </div></div>
+                <div className="offers">    <div><img src="https://promos.makemytrip.com/notification/xhdpi//Flash_Sale_Flights.jpg" alt="" />
+                <h3>T/C apply</h3></div>
+                <div  className="offer-box-details">
+                    <p>DOM FLIGHT</p>
+                    <h3>#BackToWork:Get 15%off</h3>
+<p>to Mumbai, Bangalore, Delhi &amp; Hyderabad.</p>
+                </div></div>
+            </div>
         </div>
-        <div>
-            <div>
-
-            </div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
+    )
 }
