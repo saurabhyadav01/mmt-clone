@@ -12,7 +12,7 @@ export const MainContent = ()=>{
     <div className="homepage-main-content-body">
     <div className="homepage-main-content">
         <ExploreSearch/>
-        {/* <MainContentOffers/> */}
+        <MainContentOffers/>
         {/* <CarouselApplication/> */}
         <MainContentHandpicked/>
         <MainContentAppDownload/>
