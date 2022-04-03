@@ -1,49 +1,55 @@
-import "./HomePageBookings.css"
+import "./HomePageBookings.css";
+import { GiCommercialAirplane, GiAirBalloon } from 'react-icons/gi';
+import { RiHotelLine } from 'react-icons/ri';
+import { AiOutlineHome } from 'react-icons/ai';
+import {IoIosTrain, IoIosAirplane} from 'react-icons/io';
+import {FaBus, FaPassport, FaHiking} from 'react-icons/fa';
+import {BiTaxi} from 'react-icons/bi';
 export const HomePageBookings = ()=>{
     const today = new Date();
-    let date = today.getDate()+'-' + new Date().toLocaleString("en-US", { month: "long" }) + '-'+today.getFullYear();
+    let date = today.getDate()+1+'-' + new Date().toLocaleString("en-US", { month: "short" }) + '-'+today.getFullYear();
     return <div>
         <div className="homepage-bookings-component">
         <div className="homepage-bookings-icons-div">
             <div className="homepage-bookings-icon-holder">
             <div className="homepage-bookings-icon">
-                <img src="" alt="" />
+                <GiCommercialAirplane/>
                 <p>Flights</p>
             </div>
             <div className="homepage-bookings-icon">
-                <img src="" alt="" />
+                <RiHotelLine/>
                 <p>Hotels</p>
             </div>
             <div className="homepage-bookings-icon">
-                <img src="" alt="" />
+                <AiOutlineHome/>
                 <p>Homestays</p>
             </div>
             <div className="homepage-bookings-icon">
-                <img src="" alt="" />
+                <GiAirBalloon/>
                 <p>Holiday Packages</p>
             </div>
             <div className="homepage-bookings-icon">
-                <img src="" alt="" />
+                <IoIosTrain/>
                 <p>Trains</p>
             </div>
             <div className="homepage-bookings-icon">
-                <img src="" alt="" />
+                <FaBus/>
                 <p>Buses</p>
             </div>
             <div className="homepage-bookings-icon">
-                <img src="" alt="" />
+                <BiTaxi/>
                 <p>Cabs</p>
             </div>
             <div className="homepage-bookings-icon">
-                <img src="" alt="" />
+                <FaPassport/>
                 <p>Visa</p>
             </div>
             <div className="homepage-bookings-icon">
-                <img src="" alt="" />
+                <IoIosAirplane />
                 <p>Chattered Flights</p>
             </div>
             <div className="homepage-bookings-icon">
-                <img src="" alt="" />
+                <FaHiking />
                 <p>Acitivites</p>
             </div>
             </div>     
@@ -70,8 +76,7 @@ export const HomePageBookings = ()=>{
                 <div className="homepage-booking-search-source">
                     <h3>FROM</h3>
                     <h2>Mumbai</h2>
-                    <h3>BOM, Chhatrapati Shivaji International</h3>
-                    <h3>Airport</h3>
+                    <h3>BOM, Chhatrapati Shivaji International Airport</h3>
                 </div>
                 <div className="homepage-booking-search-destination">
                     <h3>TO</h3>
@@ -80,7 +85,7 @@ export const HomePageBookings = ()=>{
                 </div>
                 <div className="homepage-booking-search-departure">
                     <h3>DEPARTURE</h3>
-                    <h4>{date}</h4>
+                    <h3>{date}</h3>
                 </div>  
                 <div className="homepage-booking-search-return">
                     <h3>RETURN</h3>

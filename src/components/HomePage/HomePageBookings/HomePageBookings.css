@@ -57,19 +57,19 @@
 }
 
 .homepage-booking-search-source{
-    width: 30%;
+    width: 28%;
 }
 
 .homepage-booking-search-destination{
-    width: 30%;
+    width: 25%;
 }
 
 .homepage-booking-search-dpearture{
-    width: 10%;
+    width: 15%;
 }
 
 .homepage-booking-search-return{
-    width: 10%;
+    width: 15%;
 }
 .homepage-booking-search-travellers-class{
     width: 20%;
@@ -95,4 +95,61 @@
     text-align: center;
     padding: 8px 3%;
     margin-top: -50px;
+}
+
+.homepage-bookings-icon{
+    font-size: 30px;
+    text-align: center;
+}
+
+.homepage-bookings-icon>p{
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+
+.homepage-bookings-search>div>h3:nth-child(3){
+    line-height: 5px;
+    font-size: 15px;
+    color: #4c4b4f;
+}
+
+.homepage-bookings-search>div>h2:nth-child(2), h3:nth-child(1){
+    line-height: 5px;
+}
+
+.homepage-bookings-search>div{
+    padding-left: 1%;
+}
+
+.homepage-booking-search-travellers-class{
+    line-height: 3px;
+
+}
+
+.homepage-booking-search-travellers-class>h4:nth-child(4){
+    color: #d28100;
+}
+
+.homepage-booking-search-travellers-class>h4{
+    font-size: 14px;
+}
+
+.homepage-booking-search-return>h4{
+    font-size: 14px;
+    color: #4c4b4f;
+}
+
+.homepage-bookings-fair-type>div{
+    background-color: whitesmoke;
+    margin-right: 5px;
+    height: 60px;
+}
+
+.homepage-bookings-fair-type{
+    margin-bottom: 30px;
+}
+
+.homepage-bookings-fair-type>div:nth-child(1){
+    background-color: white;
 }

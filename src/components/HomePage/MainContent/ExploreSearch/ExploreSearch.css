@@ -3,41 +3,46 @@
     padding: 10px;
     border: 1px solid black;
     border-radius: 50px;
-    width: 60%;
-    margin: -40px auto 0;
+    width: 80%;
+    margin: -40px auto 20px;
     background-color: white;
   }
 
-  .explore-search>div>div>divimg{
-      width: 10%;
+  .explore-search>div>div>div>img{
+      width: 80%;
   }
+
+  .explore-s-3>div>img{
+    width: 40%;
+  }
+
   
   .explore-s-1 {
     /* background: #fff; */
     display: flex;
-    padding: 0 15px;
+    padding: 0 10px;
   }
   
   .explore-s-2 {
     /* background: #fff; */
     display: flex;
-    padding: 0 15px;
+    padding: 0 10px;
   }
   
   .explore-s-3 {
     /* background: #fff; */
     display: flex;
-    padding: 0 15px;
+    padding: 0 10px;
   }
   .explore-s-4 {
     /* background: #fff; */
     display: flex;
-    padding: 0 15px;
+    padding: 0 10px;
   }
   .explore-s-5 {
     /* background: #fff; */
     display: flex;
-    padding: 0 15px;
+    padding: 0 10px;
   }
   
   .spacefor {
