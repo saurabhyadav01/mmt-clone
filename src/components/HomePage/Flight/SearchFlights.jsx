@@ -1,11 +1,11 @@
-import { FilterSection, DisplayFlex, FlightBody, FlightMainDiv, FlightsAvailable } from "./FlightStyles";
+import { FilterSection, FlightBody, FlightMainDiv, FlightsAvailable } from "./FlightStyles";
 import { FlightDetails } from "./FlightDetails";
 import { Filters } from "./PopularFilters";
 import { SearchFlight } from "./SearchFlight";
 import { useEffect,useState } from "react";
 import axios from "axios"
 
-export function SearchFlights(){
+export function Flight(){
     const [flights, setFlights] = useState([])
     const [initial, setInitial] = useState([])
     const [airports,setAirport] = useState([])
@@ -20,17 +20,17 @@ export function SearchFlights(){
         setFlights(gofirst)
     }
     useEffect(()=>{
-        axios.get("https://json-server-achintya.herokuapp.com/flights").then((res)=>{
+        axios.get("http://localhost:3002/flights").then((res)=>{
         console.log(res.data)
         setFlights(res.data)
         setInitial(res.data)
     })
-    //axios.get("http://localhost:3002/airports").then((res)=>{
-      //  console.log(res.data)
-        //setAirport(res.data)
+    axios.get("http://localhost:3002/airports").then((res)=>{
+        console.log(res.data)
+        setAirport(res.data)
         
-    //})
-    },[]);
+    })
+    },[])
 
     
 
@@ -42,8 +42,9 @@ export function SearchFlights(){
     ]
     return (
         <FlightMainDiv >
-        <SearchFlight></SearchFlight>
-            <DisplayFlex>
+            <SearchFlight></SearchFlight>
+            <FlightBody>
+             
                 <FilterSection>
                     <div className="vista" onClick={vistaraFilter} ></div>
                     <div className="gofir" onClick={gofirstFilter} style={{width:"20px",height:"17px",backgroundColor:"white",position:"relative",top:"80px",left:"1px",}}></div>
@@ -59,7 +60,7 @@ export function SearchFlights(){
                     <FlightDetails flights ={flights} airports ={ airports}/>
                
                 </FlightsAvailable>
-            </DisplayFlex>
+            </FlightBody>
         </FlightMainDiv>
     )
 }
