@@ -5,7 +5,9 @@ import { AiOutlineHome } from 'react-icons/ai';
 import {IoIosTrain, IoIosAirplane} from 'react-icons/io';
 import {FaBus, FaPassport, FaHiking} from 'react-icons/fa';
 import {BiTaxi} from 'react-icons/bi';
+import { useNavigate } from "react-router-dom";
 export const HomePageBookings = ()=>{
+    const navigate = useNavigate();
     const today = new Date();
     let date = today.getDate()+1+'-' + new Date().toLocaleString("en-US", { month: "short" }) + '-'+today.getFullYear();
     return <div>
@@ -122,7 +124,7 @@ export const HomePageBookings = ()=>{
             </div>
         </div>
         <div className="homepage-bookings-search-button">
-                <button>Search</button>
+                <button onClick={()=> navigate("/search")}>Search</button>
                 <p>Explore More</p>
             </div>
         </div>

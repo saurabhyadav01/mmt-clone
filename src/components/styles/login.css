@@ -1,0 +1,160 @@
+body, html {
+    font-family: 'Lato',sans-serif;
+}
+
+.login-signup-div {
+    display: block;
+  }
+  
+  .login-sign-up-container {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+  }
+  .login-sign-up-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 40%);
+    left: 50%;
+    min-height: 480px;
+    padding: 30px;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    z-index: 2;
+  }
+  
+  .login-sign-up-header {
+    margin-bottom: 25px;
+    background-color: #fff;
+    border-radius: 51px;
+    box-shadow: 0 1px 7px 0 rgb(0 0 0 / 30%);
+    padding: 7px;
+  }
+  
+  .login-sign-up-header-content {
+    display: flex;
+    text-align: center;
+  }
+  .login-sign-up-header-content1 {
+    flex: 1;
+    background-image: var(
+      --color-btn-primary-bg,
+      linear-gradient(93deg, #53b2fe, #065af3)
+    );
+    color: #fff;
+    border-radius: 150px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 7px 14px;
+    font-weight: 700;
+  }
+  .login-sign-up-header-content2 {
+    border-radius: 150px;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 7px 14px;
+    font-weight: 700;
+    flex: 1;
+  }
+  
+  .login-sign-up-word {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 26px;
+    margin: 30px 0px;
+  }
+  
+  .login-sign-up-email_mobile {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .login-sign-up-email-mobile-word {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .login-sign-up-email-mobile-input {
+    border: 1px solid #9b9b9b;
+    border-radius: 4px;
+    align-items: center;
+  }
+  .login-sign-up-email-mobile-input input {
+    border: 0;
+    outline: none;
+    padding: 12px;
+    width: 75%;
+  }
+  .login-sign-up-email-mobile-continue_btn {
+    margin-bottom: 25px;
+  }
+  .login-sign-up-email-mobile-continue_btn button {
+    background-color: var(--color-btn, #008cff);
+    border: none;
+    border-radius: var(--btn-border-radius, 4px);
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 30%);
+    color: var(--color-btn-primary-text, #fff);
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    padding: 12.5px 0;
+    width: 100%;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  
+  .login-sign-up-email-mobile-option_word {
+    text-align: center;
+    color: #9b9b9b;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .login-sign-up-email-mobile-google_signup_btn {
+    display: flex;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    box-shadow: none;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  
+  .login-sign-up-email-mobile-google_logo img {
+    width: 20px;
+    padding: 9px 3px 9px 9px;
+    flex: 1;
+  }
+  
+  .login-sign-up-email-mobile-google_login_word {
+    padding: 7.3px;
+    font-weight: 600;
+  }
+  .login-sign-up-email-mobile-google_login_word a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .login-sign-up-terms_conditions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    font-size:10.5px;
+  }
+  
