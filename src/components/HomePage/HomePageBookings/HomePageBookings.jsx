@@ -75,15 +75,15 @@ export const HomePageBookings = ()=>{
                 </div>
             </div>
             <div className="homepage-bookings-search">
-                <div className="homepage-booking-search-source">
-                    <h3>FROM</h3>
-                    <h2>Mumbai</h2>
-                    <h3>BOM, Chhatrapati Shivaji International Airport</h3>
-                </div>
                 <div className="homepage-booking-search-destination">
-                    <h3>TO</h3>
+                    <h3>FROM</h3>
                     <h2>New Delhi</h2>
                     <h3>DEL, Indira Gandhi International Airport</h3>
+                </div>
+                <div className="homepage-booking-search-source">
+                    <h3>TO</h3>
+                    <h2>Bengaluru</h2>
+                    <h3>Bengaluru International Airport</h3>
                 </div>
                 <div className="homepage-booking-search-departure">
                     <h3>DEPARTURE</h3>

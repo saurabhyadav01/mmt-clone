@@ -1,5 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import "./styles/flight-review-details.css";
 export const FlightReviewDetails = () => {
+  const today = new Date();
+    let date = today.getDate()+1+'-' + new Date().toLocaleString("en-US", { month: "short" }) + '-'+today.getFullYear();
+    const navigate = useNavigate();
   return (
     <div>
       <div id="flight-review-details-header">
@@ -30,10 +34,10 @@ export const FlightReviewDetails = () => {
                       <div id="flight-from-to-names">
                         <div>
                           <h2>
-                            <b>from-to</b>
+                            <b>New Delhi - Bengaluru</b>
                           </h2>
                           <p>
-                            <span>day, month date</span>
+                            <span>{date}</span>
                             <span>Non Stop · 2h 55m</span>
                           </p>
                         </div>
@@ -277,7 +281,10 @@ export const FlightReviewDetails = () => {
               <div id="fare-lock"></div>
               <div id="continue-btn">
                 <div class="makeFlex hrtlCenter spaceBetween appendTop15">
-                  <button class="lato-black button buttonPrimary extraPadBtn fontSize16 ">
+                  <button class="lato-black button buttonPrimary extraPadBtn fontSize16 " onClick={()=>{
+                    alert(`Your flight is booked \nThankyou for booking`);
+                    navigate("/");
+                  }}>
                     Continue
                   </button>
                 </div>

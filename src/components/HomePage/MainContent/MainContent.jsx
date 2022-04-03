@@ -7,9 +7,11 @@ import ExploreSearch from "./ExploreSearch/ExploreSearch";
 import {MainContentOffers} from "./MainContentOffers/MainContentOffers";
 import "./MainContent.css";
 import {MainContentHandpicked} from "./MainContentHandpicked/MainContentHandpicked"
+import { HomeNavbar } from "../HomeNavbar/HomeNavbar";
 export const MainContent = ()=>{
     return (
     <div className="homepage-main-content-body">
+        <HomeNavbar/>
     <div className="homepage-main-content">
         <ExploreSearch/>
         <MainContentOffers/>

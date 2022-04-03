@@ -2,7 +2,8 @@ import { InputDIv, SearchBox } from "./FlightStyles";
 
 
 export function SearchFlight(){
-
+     const today = new Date();
+     let date = today.getDate()+1+'-' + new Date().toLocaleString("en-US", { month: "short" }) + '-'+today.getFullYear();
     return (
         <SearchBox>
            <InputDIv className="selection" style={{width:"100px"}}>
@@ -25,7 +26,7 @@ export function SearchFlight(){
            </InputDIv>
            <InputDIv>
                 <span>DEPART</span>
-                <input className="searchInput" type="text" name="" placeholder="Sun, Mar 3, 2022"/>
+                <input className="searchInput" type="text" name="" placeholder={`${date}`}/>
            </InputDIv>
            <InputDIv>
                 <span>RETURN</span>

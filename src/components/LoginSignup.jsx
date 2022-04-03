@@ -1,5 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import "./styles/login.css";
-export const LoginSignUp = () => {
+export const LoginSignUp = ({setisLogin}) => {
+  const navigate = useNavigate();
+
   return (
     <div className="login-sign-up-container">
       <div className="login-sign-up-box">
@@ -21,7 +24,7 @@ export const LoginSignUp = () => {
           </div>
         </div>
         <div className="login-sign-up-email-mobile-continue_btn">
-          <button>CONTINUE</button>
+          <button onClick={()=>setisLogin()}>CONTINUE</button>
         </div>
         <p className="login-sign-up-email-mobile-option_word">
           <span>Or Login/Signup With</span>

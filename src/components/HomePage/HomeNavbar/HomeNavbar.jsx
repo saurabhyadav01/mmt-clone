@@ -1,6 +1,11 @@
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { LoginSignUp } from "../../LoginSignup";
 import { HomePageBookings } from "../HomePageBookings/HomePageBookings";
 import "./HomeNavbar.css"
 export const HomeNavbar = () => {
+  const navigate = useNavigate();
+  const [islogin, setisLogin] = useState(false);
   return (
      <div className="home-navbar">
         <div className="home-upper-navbar">
@@ -34,7 +39,7 @@ export const HomeNavbar = () => {
           </div>
         </button>
         <div className="home-upper-navbar-login">
-            <button>Login or Create Account <i class="fa fa-angle-down" aria-hidden="true"></i></button>
+            <button onClick={()=>setisLogin(true)}>Login or Create Account <i class="fa fa-angle-down" aria-hidden="true"></i></button>
         </div>
         <div className="home-upper-navbar-language">
           <button>IN | ENG | INR</button>
@@ -44,6 +49,11 @@ export const HomeNavbar = () => {
     <div>
       <HomePageBookings/>
     </div>
+
+    
+    {
+      islogin && <LoginSignUp setisLogin={()=>setisLogin(false)}/>
+    }
      </div>
    
   );
