@@ -10,13 +10,12 @@ Live hosted link of website : https://mmt-clone.vercel.app/
 
 ## Tech Stack
 
-1.React Js
-2.Node Js
-3.Express
-4.Mongo Db
-5.Html
-6.Css
-7.JavaScript
+1. React Js
+2. Node Js
+3. Express
+4. Mongo Db
+5. Html/Css
+6. JavaScript
 
 #TEAM MEMBERS
 
