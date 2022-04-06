@@ -25,6 +25,7 @@
 
 .homepage-bookings-type-radio-button{
     display: flex;
+    display:flex
 }
 
 .homepage-bookings-type-radio-button>div{
